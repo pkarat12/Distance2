@@ -12,17 +12,9 @@ import ua.karatnyk.enumerations.Role;
 import ua.karatnyk.enumerations.School;
 import ua.karatnyk.repository.UserRepository;
 
+
 @Controller
 @EnableAutoConfiguration
-public class SampleController {
-
-    @RequestMapping("/")
-    @ResponseBody
-    String home() {
-        return "/home";
-    }
-
-
 @SpringBootApplication
 public class DistanceEducationProjectApplication extends SpringBootServletInitializer{
 
@@ -30,6 +22,10 @@ public class DistanceEducationProjectApplication extends SpringBootServletInitia
 		ConfigurableApplicationContext context = SpringApplication.run(DistanceEducationProjectApplication.class, args);
 		//addAdmin(context);
 		addDirector(context);
+		    @RequestMapping("/")
+    @ResponseBody
+    String home() {
+        return "/home";
 	}
 
 	@Override
