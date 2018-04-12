@@ -167,7 +167,7 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
-		</plugins>
+
 		
 		<plugin>
                     <groupId>pl.project13.maven</groupId>
@@ -215,5 +215,6 @@
                         </execution>
                     </executions>
                 </plugin>
+					</plugins>
 	</build>
 </project>
