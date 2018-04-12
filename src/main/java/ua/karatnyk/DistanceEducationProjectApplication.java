@@ -13,8 +13,6 @@ import ua.karatnyk.enumerations.School;
 import ua.karatnyk.repository.UserRepository;
 
 
-@Controller
-@EnableAutoConfiguration
 @SpringBootApplication
 public class DistanceEducationProjectApplication extends SpringBootServletInitializer{
 
