@@ -109,8 +109,7 @@
         <artifactId>tomcat-jsp-api</artifactId>
         <version>${tomcat.version}</version>
     </dependency>
-  </dependencies>
-  <build>
+<build>
     <finalName>embeddedTomcatSample</finalName>
     <plugins>
         <plugin>
