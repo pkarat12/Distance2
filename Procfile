@@ -1,1 +1,1 @@
-web: java -jar target/DistanceEducationProject.jar
+web: java -jar target/*.jar  
