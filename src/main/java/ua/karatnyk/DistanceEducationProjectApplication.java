@@ -22,10 +22,6 @@ public class DistanceEducationProjectApplication extends SpringBootServletInitia
 		ConfigurableApplicationContext context = SpringApplication.run(DistanceEducationProjectApplication.class, args);
 		//addAdmin(context);
 		addDirector(context);
-		    @RequestMapping("/")
-    @ResponseBody
-    String home() {
-        return "/home";
 	}
 
 	@Override
