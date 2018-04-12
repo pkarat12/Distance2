@@ -12,6 +12,16 @@ import ua.karatnyk.enumerations.Role;
 import ua.karatnyk.enumerations.School;
 import ua.karatnyk.repository.UserRepository;
 
+@Controller
+@EnableAutoConfiguration
+public class SampleController {
+
+    @RequestMapping("/")
+    @ResponseBody
+    String home() {
+        return "/home";
+    }
+
 
 @SpringBootApplication
 public class DistanceEducationProjectApplication extends SpringBootServletInitializer{
