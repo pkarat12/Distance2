@@ -168,15 +168,6 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 
-		
-		<plugin>
-                    <groupId>pl.project13.maven</groupId>
-                    <artifactId>git-commit-id-plugin</artifactId>
-                    <configuration>
-                        <dotGitDirectory>../.git</dotGitDirectory>
-                    </configuration>
-                </plugin>
-
                 <plugin>
                 <groupId>com.heroku.sdk</groupId>
                 <artifactId>heroku-maven-plugin</artifactId>
