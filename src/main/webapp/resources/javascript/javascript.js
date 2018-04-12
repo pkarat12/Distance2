@@ -1,6 +1,4 @@
-/* function openWin(url) {
-   myWin= open(url, "_self");
- }
+/* 
  
  
  function getObj(objID)
@@ -289,4 +287,6 @@
        frm.password.focus();
        return false;
      }*/
- 
+ function openWin(url) {
+   myWin= open(url, "_self");
+ }
